@@ -1,0 +1,113 @@
+
+@media (min-width: 0) {
+    .footer_descr p {
+        font-size: 10px;
+    
+    }
+    .buttons_style {
+            background-color: transparent;
+            width: 25px;
+            height: 25px;
+            border: 1px solid white;
+            margin-right: 1px;
+            color: white;
+            font-size: smaller;
+    }
+    .footer_descr h5{
+        font-size: 13px;
+    }
+    .content_top_box{
+        height: 100px;
+    }
+    .content_bottom_box{
+        height: 100px;
+    }
+    .head_footer {
+        height: 200px;
+    }
+    .copyright_block{
+        font-size: 10px;
+        
+    }
+   
+    
+}
+
+
+@media (min-width: 484px) {
+    .head_footer {
+        background-color: rgb(66, 71, 110);
+        height: 250px;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        
+        
+    
+    }
+    
+    .content_top_box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        height: 125px;
+    }
+    
+    .content_bottom_box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        height: 125px;
+    }
+    
+    .footer_descr h5 {
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+    
+    .buttons_style {
+        background-color: transparent;
+        width: 40px;
+        height: 40px;
+        border: 1px solid white;
+        margin-right: 5px;
+        color: white;
+        font-size: larger;
+    }
+    
+    
+    
+    .footer_descr p {
+        font-size: 15px;
+    }
+    .copyright_block{
+        background-color: rgb(56, 59, 93);
+        color: grey;
+        font-size: 15px;
+        text-align: center;
+        padding: 10px 0 ;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .my_btn {
+        padding: 10px 30px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .buttons_style {
+        font-size: larger;
+    }
+    
+}
+
+
+@media (min-width: 1400px) {
+    
+}
